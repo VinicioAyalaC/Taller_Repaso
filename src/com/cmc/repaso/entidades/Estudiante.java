@@ -2,23 +2,72 @@ package com.cmc.repaso.entidades;
 
 public class Estudiante {
 	
-	public String nombre;
-	public double nota;
-	public String resultado;
+	// atributos
+	private String nombre;
+	private double nota;
+	private String resultado;
 	
+	
+	// constructor
 	public Estudiante(String nombre) {
 		this.nombre = nombre;		
 	}
 	
 	
+	
+	// metodo
 	public void calificar(double nota) {
+		
+		this.nota = nota;
+		
 		if(nota <8) {
 			 resultado = "F";
 		}else if(nota >= 8) {
 			resultado = "A";
 		}
-		
-		System.out.printf("La nota %s, tiene un resultado de %d", nota, resultado);
 	}
+
+
+
+	// get & set
+	
+	public String getNombre() {
+		return nombre;
+	}
+
+
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+
+
+	public double getNota() {
+		return nota;
+	}
+
+
+
+	public void setNota(double nota) {
+		this.nota = nota;
+	}
+
+
+
+	public String getResultado() {
+		return resultado;
+	}
+
+
+
+	public void setResultado(String resultado) {
+		this.resultado = resultado;
+	}
+	
+	
+	
+	
+	
 
 }//
