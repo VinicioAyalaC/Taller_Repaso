@@ -28,46 +28,16 @@ public class Estudiante {
 	}
 
 
-
 	// get & set
 	
-	public String getNombre() {
-		return nombre;
-	}
+	public String getNombre() {	return nombre;	}
+	public void setNombre(String nombre) {  this.nombre = nombre;	}
 
+	public double getNota() { return nota;	}
+	public void setNota(double nota) {	this.nota = nota;	}
 
-
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
-
-
-
-	public double getNota() {
-		return nota;
-	}
-
-
-
-	public void setNota(double nota) {
-		this.nota = nota;
-	}
-
-
-
-	public String getResultado() {
-		return resultado;
-	}
-
-
-
-	public void setResultado(String resultado) {
-		this.resultado = resultado;
-	}
-	
-	
-	
-	
+	public String getResultado() {	return resultado;	}
+	public void setResultado(String resultado) { this.resultado = resultado; }		
 	
 
 }//

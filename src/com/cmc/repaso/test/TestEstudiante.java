@@ -9,13 +9,12 @@ public class TestEstudiante {
 		
 		Estudiante est1 = new Estudiante("Vinicio");
 		
-		est1.calificar(8);
-		
+		est1.calificar(8);		
 		
 		
 		System.out.println("Nombre: "+est1.getNombre());
-		System.out.println("Nombre: "+est1.getNota());
-		System.out.println("Nombre: "+est1.getResultado());
+		System.out.println("Nota: "+est1.getNota());
+		System.out.println("Resultado: "+est1.getResultado());
 
 	}
 
